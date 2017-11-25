@@ -21,4 +21,4 @@ install:
   - source .envrc
 
 script:
-  - python `which nosetests`
+  - python `which nosetests` -v
